@@ -1,5 +1,5 @@
 import React from "react";
-import LifecycleEx from "./R006_LifecycleEx";
+import LifecycleEx from "./R007_LifecycleEx";
 function App() {
     return (
         <div className="App">
