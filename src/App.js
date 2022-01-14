@@ -1,9 +1,9 @@
 import React from "react";
-import LifecycleEx from "./R005_LifecycleEx";
+import LifecycleEx from "./R006_LifecycleEx";
 function App() {
     return (
         <div className="App">
-            <LifecycleEx></LifecycleEx>
+            <LifecycleEx prop_value="FromApp.js"></LifecycleEx>
         </div>
     );
 }
