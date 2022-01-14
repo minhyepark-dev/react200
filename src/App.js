@@ -1,9 +1,9 @@
 import React from "react";
-import ForEach from "./R014_ForEach";
+import Map from "./R015_Map";
 function App() {
     return (
         <div className="App">
-            <ForEach />
+            <Map />
         </div>
     );
 }
