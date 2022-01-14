@@ -1,10 +1,10 @@
 import React from "react";
-import ComponentClass from "./R027_ComponentClass";
+import PureComponentClass from "./R028_PureComponentClass";
 
 function App() {
     return (
         <div className="App">
-            <ComponentClass />
+            <PureComponentClass />
         </div>
     );
 }
