@@ -1,9 +1,9 @@
 import React from "react";
-import Jquery from "./R016_Jquery";
+import Props from "./R017_Props";
 function App() {
     return (
         <div className="App">
-            <Jquery />
+            <Props props_val="THIS IS PROPS" />
         </div>
     );
 }
