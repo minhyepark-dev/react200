@@ -1,9 +1,9 @@
 import React from "react";
-import Map from "./R015_Map";
+import Jquery from "./R016_Jquery";
 function App() {
     return (
         <div className="App">
-            <Map />
+            <Jquery />
         </div>
     );
 }
