@@ -1,9 +1,9 @@
 import React from "react";
-import Es6 from "./R009_Es6";
+import SpreadOperator from "./R011_SpreadOperator";
 function App() {
     return (
         <div className="App">
-            <Es6 />
+            <SpreadOperator />
         </div>
     );
 }
