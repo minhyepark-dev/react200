@@ -1,9 +1,9 @@
 import React from "react";
-import SpreadOperator from "./R011_SpreadOperator";
+import ClassPrototype from "./R012_Class&Prototype";
 function App() {
     return (
         <div className="App">
-            <SpreadOperator />
+            <ClassPrototype />
         </div>
     );
 }
