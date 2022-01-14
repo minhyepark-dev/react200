@@ -1,9 +1,9 @@
 import React from "react";
-import ClassPrototype from "./R012_Class&Prototype";
+import ArrowFunction from "./R013_ArrowFunction";
 function App() {
     return (
         <div className="App">
-            <ClassPrototype />
+            <ArrowFunction />
         </div>
     );
 }
