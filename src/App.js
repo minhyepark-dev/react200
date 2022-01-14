@@ -1,10 +1,12 @@
 import React from "react";
-import PropsDefault from "./R022_PropsDefault";
+import PropsNode from "./R023_PropsNode";
 
 function App() {
     return (
         <div className="App">
-            <PropsDefault ReactNumber={200} />
+            <PropsNode>
+                <span>node from App.js</span>
+            </PropsNode>
         </div>
     );
 }
