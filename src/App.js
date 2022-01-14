@@ -1,10 +1,10 @@
 import React from "react";
-import ShallowEqual from "./R029_ShallowEqual";
+import FunctionComponent from "./R030_FunctionComponent";
 
 function App() {
     return (
         <div className="App">
-            <ShallowEqual />
+            <FunctionComponent contents="[ THIS IS FunctionComponent ]" />
         </div>
     );
 }
