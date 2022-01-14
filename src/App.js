@@ -1,12 +1,10 @@
 import React from "react";
-import PropsNode from "./R023_PropsNode";
+import ReactState from "./R024_ReactState";
 
 function App() {
     return (
         <div className="App">
-            <PropsNode>
-                <span>node from App.js</span>
-            </PropsNode>
+            <ReactState reactString={"react"} />
         </div>
     );
 }
