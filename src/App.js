@@ -1,10 +1,10 @@
 import React from "react";
-import ForceUpdate from "./R026_ForceUpdate";
+import ComponentClass from "./R027_ComponentClass";
 
 function App() {
     return (
         <div className="App">
-            <ForceUpdate />
+            <ComponentClass />
         </div>
     );
 }
