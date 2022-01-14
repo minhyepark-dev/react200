@@ -1,10 +1,10 @@
 import React from "react";
-import ReactState from "./R024_ReactState";
+import SetState from "./R025_SetState";
 
 function App() {
     return (
         <div className="App">
-            <ReactState reactString={"react"} />
+            <SetState />
         </div>
     );
 }
