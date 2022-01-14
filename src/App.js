@@ -1,9 +1,9 @@
 import React from "react";
-import ArrowFunction from "./R013_ArrowFunction";
+import ForEach from "./R014_ForEach";
 function App() {
     return (
         <div className="App">
-            <ArrowFunction />
+            <ForEach />
         </div>
     );
 }
