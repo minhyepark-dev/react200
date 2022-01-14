@@ -1,10 +1,10 @@
 import React from "react";
-import PropsRequired from "./R021_PropsRequired";
+import PropsDefault from "./R022_PropsDefault";
 
 function App() {
     return (
         <div className="App">
-            <PropsRequired ReactString={"Hello"} ReactNumber={200} />
+            <PropsDefault ReactNumber={200} />
         </div>
     );
 }
