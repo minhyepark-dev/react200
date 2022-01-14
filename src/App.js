@@ -1,10 +1,11 @@
 import React from "react";
-import ReturnMap from "./R033_ReturnMap";
+import FetchGet from "./R059_FetchGet";
 
 function App() {
     return (
-        <div className="App">
-            <ReturnMap />
+        <div>
+            <h1>Start React 200!</h1>
+            <FetchGet />
         </div>
     );
 }
