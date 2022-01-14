@@ -1,11 +1,10 @@
 import React from "react";
-import PropsBoolean from "./R019_PropsBoolean";
+import PropsObjVal from "./R020_PropsObjVal";
 
 function App() {
     return (
         <div className="App">
-            <PropsBoolean BooleanTrueFalse={false} />
-            <PropsBoolean BooleanTrueFalse />
+            <PropsObjVal ObjectJson={{ react: "리액트", twohundred: "200" }} />
         </div>
     );
 }
