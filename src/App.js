@@ -1,10 +1,10 @@
 import React from "react";
-import PureComponentClass from "./R028_PureComponentClass";
+import ShallowEqual from "./R029_ShallowEqual";
 
 function App() {
     return (
         <div className="App">
-            <PureComponentClass />
+            <ShallowEqual />
         </div>
     );
 }
