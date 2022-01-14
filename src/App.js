@@ -1,10 +1,10 @@
 import React from "react";
-import SetState from "./R025_SetState";
+import ForceUpdate from "./R026_ForceUpdate";
 
 function App() {
     return (
         <div className="App">
-            <SetState />
+            <ForceUpdate />
         </div>
     );
 }
