@@ -1,10 +1,10 @@
 import React from "react";
-import FunctionComponent from "./R030_FunctionComponent";
+import ReactHook from "./R031_ReactHook";
 
 function App() {
     return (
         <div className="App">
-            <FunctionComponent contents="[ THIS IS FunctionComponent ]" />
+            <ReactHook />
         </div>
     );
 }
